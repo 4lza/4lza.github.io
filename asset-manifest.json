@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/4lza.github.io/static/css/main.3493361a.css",
+    "main.js": "/4lza.github.io/static/js/main.79797cd6.js",
+    "static/js/453.1407b060.chunk.js": "/4lza.github.io/static/js/453.1407b060.chunk.js",
+    "index.html": "/4lza.github.io/index.html",
+    "main.3493361a.css.map": "/4lza.github.io/static/css/main.3493361a.css.map",
+    "main.79797cd6.js.map": "/4lza.github.io/static/js/main.79797cd6.js.map",
+    "453.1407b060.chunk.js.map": "/4lza.github.io/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3493361a.css",
+    "static/js/main.79797cd6.js"
+  ]
+}
