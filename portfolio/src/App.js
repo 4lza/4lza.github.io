@@ -5,6 +5,7 @@ import project3 from './resources/images/project 3.png'
 import twitter from './resources/images/twitter logo.png'
 import linkedin from './resources/images/linkedin logo.png'
 import github from './resources/images/github logo.png'
+import logo from './resources/images/favicon.ico'
 
 
 
@@ -24,7 +25,7 @@ function App() {
     <p class="heading">Aleeza Ahmed</p>
     <p class="bio"><span class="bold">A Hardworking Developer,</span><span class="italics">with big goals</span></p>
   </div>
-  <div class="child-2"><p>image of me</p></div>
+  <div class="child-2"><img className='slideInDown' src={logo}></img></div>
 </div>
 
   <div id="About">
