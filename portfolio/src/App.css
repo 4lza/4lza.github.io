@@ -13,7 +13,7 @@ html{
   text-align: center;
 }
 
-.child, .child-2, .child-3, .child-5 {
+.child, .child-3, .child-5 {
   margin-top: 20px;
   height: 600px;
   width: 500px;
@@ -27,10 +27,6 @@ html{
   min-width: 600px;
   overflow: scroll;
 } 
-
-.child-2 img {
-  width: 300px;
-}
 
 
 .child-4 {
