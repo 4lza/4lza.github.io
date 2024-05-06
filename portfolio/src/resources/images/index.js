@@ -9,3 +9,7 @@ export const experienceImages = {
     project2: require('./project 2.png'),
     project3: require('./project 3.png')
 }
+
+export const landingPageLogo = {
+    logo: require('./favicon.ico'),
+}
