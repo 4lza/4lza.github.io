@@ -1,4 +1,13 @@
 import './App.css';
+import project1 from './resources/images/project 1.png'
+import project2 from './resources/images/project 2.png'
+import project3 from './resources/images/project 3.png'
+import twitter from './resources/images/twitter logo.png'
+import linkedin from './resources/images/linkedin logo.png'
+import github from './resources/images/github logo.png'
+
+
+
 
 function App() {
   return (
@@ -30,17 +39,17 @@ function App() {
       <p class="heading">Experience</p>
       <div class="top">
       <div class="one">
-      <img src="./resources/images/project 1.png" height="150px" width="150px"></img>
+      <img src={project1} height="150px" width="150px"></img>
       <a href="https://4lza.github.io/circumferenceCalculator/" target="_blank"><p class="pone">Circumference Calculator</p></a>
     </div>
     <div class="two">
-    <img src="./resources/images/project 1.png" height="150px" width="150px"></img>
+    <img src={project2}  height="150px" width="150px"></img>
       <a href="https://4lza.github.io/mainCounter/" target="_blank"><p class="pone">Counter</p></a>
     </div>
       </div>
       <div class="bottom">
       <div class="three">
-      <img src="" height="150px" width="150px"></img>
+      <img src={project3} height="150px" width="150px"></img>
       <a href="https://4lza.github.io/randomNumberGenerator/" target="_blank"><p class="pthree">Random Number</p></a>
     </div>
     <div class="four">
@@ -56,15 +65,15 @@ function App() {
       <p class="heading">Contacts</p>
     <div class="socials">
     <div class="Twitter">
-      <img src='./resources/images/twitter logo.png' height="100px"></img>
+      <img src={twitter} height="100px"></img>
       <p>Twitter</p>
     </div>
     <div class="Linkedin">
-      <img src='./resources/images/linkedin logo.png' height="100px"></img>
+      <img src={linkedin} height="100px"></img>
       <p>Linkedin</p>
     </div>
     <div class="GitHub">
-      <img src='./resources/images/github logo.png' height="100px"></img>
+      <img src={github} height="100px"></img>
       <p>GitHub</p>
     </div>
     </div>
