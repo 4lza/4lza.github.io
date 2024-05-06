@@ -15,8 +15,8 @@ function App() {
   <div class="child">
     <p class="heading">Aleeza Ahmed</p>
     <p class="bio"><span class="bold">A Hardworking Developer,</span><span class="italics">with big goals</span></p>
+    <img className='zoomIn' src={logo}></img>
   </div>
-  <div class="child-2"><img className='slideInDown' src={logo}></img></div>
 </div>
   <div id="About">
     <div class="child-3">

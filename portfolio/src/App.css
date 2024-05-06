@@ -116,33 +116,31 @@ a:hover {
   color: grey;
 }
 
-.slideInDown {
-  -webkit-animation-name: slideInDown;
-  animation-name: slideInDown;
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
   }
-  @-webkit-keyframes slideInDown {
+  @-webkit-keyframes zoomIn {
   0% {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  visibility: visible;
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
   }
-  100% {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  50% {
+  opacity: 1;
   }
   }
-  @keyframes slideInDown {
+  @keyframes zoomIn {
   0% {
-  -webkit-transform: translateY(-100%);
-  transform: translateY(-100%);
-  visibility: visible;
+  opacity: 0;
+  -webkit-transform: scale3d(.3, .3, .3);
+  transform: scale3d(.3, .3, .3);
   }
-  100% {
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
+  50% {
+  opacity: 1;
   }
   } 
